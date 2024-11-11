@@ -10,12 +10,10 @@
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,21 +31,18 @@
 
   <header id="header" class="header d-flex align-items-center fixed-top" style="backdrop-filter: blur(5px)">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">MELINE Loïse</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Accueil</a></li>
-          <li><a href="#about">A propos</a></li>
-          <li><a href="#resume">Mon parcours</a></li>
-          <li><a href="#services">Mes competences</a></li>
-          <li><a href="#portfolio">Mes projets</a></li>
-          <li><a href="#pricing">Ma veille technologique</a></li>
+          <li><a href="#accueil" class="active">Accueil</a></li>
+          <li><a href="#a_propos">A propos</a></li>
+          <li><a href="#parcours">Mon parcours</a></li>
+          <li><a href="#competences">Mes competences</a></li>
+          <li><a href="#projets">Mes projets</a></li>
+          <li><a href="#veille_technologique">Ma veille technologique</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -65,27 +60,26 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <!-- accueil Section -->
+    <section id="accueil" class="accueil section dark-background">
 
       <img src="assets/img/Screenshot_20241024_121326_Photos.jpg" alt="" data-aos="fade-in">
 
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <h2> MELINE Loïse</h2>
         <p>Bienvenue sur mon portfolio</p>
-        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+        <a href="#a_propos" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
       </div>
 
-    </section><!-- /Hero Section -->
+    </section><!-- /accueil Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+    <!-- a_propos Section -->
+    <section id="a_propos" class="a_propos section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span class="description-title">A propos de moi </span>
         <h2>A propos de moi </h2>
-        <!--<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -113,7 +107,7 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>&Acirc;ge:</strong> <span>22</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Niveau:</strong> <span>BTS</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Curriculum Vitae:</strong> <span><div class="btn btn"><a href="CV_MELINE_ Loïse.pdf" download="MELINE_Loise.pdf"> CV </a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Curriculum Vitae:</strong><a href="CV_MELINE_LOISE.pdf" download="MELINE_Loise.pdf"> Curiculum Vitae </a></li>
                 </ul>
               </div>
             </div>
@@ -133,10 +127,10 @@
 
       </div>
 
-    </section><!-- /About Section -->
+    </section><!-- /a_propos Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <!-- parcours Section -->
+    <section id="parcours" class="parcours section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -145,45 +139,41 @@
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="row">
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-           
-            <h3 class="resume-title">Parcours Scolaire</h3>
-            <div class="resume-item">
+            <h3 class="parcours-title">Parcours Scolaire</h3>
+            <div class="parcours-item">
               
                 <h4>BTS SIO option SLAM </h4>
                 <h5>2023 - 2025</h5>
                 <p><em>IFC d'Avignon, Avignon (84)</em></p>
                 <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-              </div><!-- Edn Resume Item -->
+              </div><!-- End parcours Item -->
             
-
-            <div class="resume-item">
+            <div class="parcours-item">
               <h4>1ère année de Fac de droit</h4>
               <h5>2021 - 2022</h5>
               <p><em>Facult&eacute; de droit, Avignon (84) </em></p>
               <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
+            </div><!-- End parcours Item -->
 
-            <div class="resume-item">
+            <div class="parcours-item">
               <h4>1ère année de DUT genie biologogique option environnement</h4>
               <h5>2020 - 2021</h5>
               <p><em> DUT g&eacute;nie biologogique, Digne-Les-Bains (04)</em></p>
               <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
-            <div class="resume-item">
+            </div><!-- End parcours Item -->
+            <div class="parcours-item">
               <h4>Baccaleaur&eacute;at STAV </h4>
               <h5>2018 - 2020</h5>
               <p><em> Lyc&eacute;e Fontlongue, Miramas (13)</em></p>
               <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div><!-- Edn Resume Item -->
+            </div><!-- End parcours Item -->
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Experience professionnelles</h3>
-            <div class="resume-item">
+            <h3 class="parcours-title">Experience professionnelles</h3>
+            <div class="parcours-item">
               <h4>Stage BTS Xenizo | Alternance </h4>
               <h5>2024 -2025</h5>
               <p><em>SAS MVH Solutions, Cavaillon (84)</em></p>
@@ -191,17 +181,17 @@
                 <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
                   <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
                 </ul>
-              </div><!-- Edn Resume Item -->
-              <div class="resume-item">
+              </div><!-- End parcours Item -->
+              <div class="parcours-item">
                 <h4>Hot&ecirc;sse de caisse</h4>
                 <h5>2021 - 2023</h5>
                 <p><em>Super U, Coustellet (84)</em></p>
                 <ul>
                   <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
                   <li>Managed up to 5 projects or tasks at a given time while under pressure</li>    
-              </div><!-- Edn Resume Item -->
+              </div><!-- End parcours Item -->
               
-              <div class="resume-item">
+              <div class="parcours-item">
               <h4>Exploitation Agricole </h4>
               <h5>2018 - 2021</h5>
               <p><em> GAEC Canta Cabra, Goult (84) </em></p>
@@ -211,14 +201,14 @@
                 <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
                 <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
               </ul>
-            </div><!-- Edn Resume Item -->
+            </div><!-- End parcours Item -->
          </div>
         </div>
       </div>
 
-    </section><!-- /Resume Section -->
-    <!-- Services Section -->
-    <section id="services" class="services section">
+    </section><!-- /parcours Section -->
+    <!-- Competences Section -->
+    <section id="competences" class="competences section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -294,8 +284,7 @@
           </div><!-- End Service Item -->
         </div>
       </div>
-
-    </section><!-- /Services Section -->
+    </section><!-- /Competence Section -->
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
@@ -382,7 +371,7 @@
     </section><!-- /Gallery Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="projets" class="projets section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -394,7 +383,7 @@
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <ul class="projets-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">Tous les projets </li>
             <li data-filter=".filter-app">1ère année</li>
             <li data-filter=".filter-product">2ème année</li>
@@ -402,56 +391,56 @@
 
           <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
+            <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-app">
+              <div class="projets-content h-100">
                 <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <div class="projets-info">
+                  <a href="assets/img/portfolio/app-1.jpg" data-gallery="projets-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
+            <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-product">
+              <div class="projets-content h-100">
                 <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <div class="projets-info">
+                  <a href="assets/img/portfolio/product-1.jpg" data-gallery="projets-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
+            <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-app">
+              <div class="projets-content h-100">
                 <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <div class="projets-info">
+                  <a href="assets/img/portfolio/app-2.jpg" data-gallery="projets-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
+            <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-product">
+              <div class="projets-content h-100">
                 <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <div class="projets-info">
+                  <a href="assets/img/portfolio/product-2.jpg" data-gallery="projets-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
+            <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-app">
+              <div class="projets-content h-100">
                 <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <div class="projets-info">
+                  <a href="assets/img/portfolio/app-3.jpg" data-gallery="projets-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
+            <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-product">
+              <div class="projets-content h-100">
                 <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <div class="projets-info">
+                  <a href="assets/img/portfolio/product-3.jpg" data-gallery="projets-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -463,16 +452,16 @@
       </div>
 
     </section><!-- /Portfolio Section -->
-  <section id="pricing" class="pricing section">
+  <section id="veille_technologique" class="veille_technologique section">
     <div class="container section-title" data-aos="fade-up" >
       <span class="description-title">Ma veille technologique</span>
       <h2>Ma veille technologique</h2>
       <p>Projet de veille technologique </p>
     </div><!-- End Section Title -->
 
-  </section><!-- /Pricing Section -->
+  </section><!-- /veille_technologique Section -->
 
-  <section id="pricing-2" class="pricing-2 section">
+  <section id="veille_technologique-2" class="veille_technologique-2 section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 gx-lg-5">
   
@@ -486,7 +475,7 @@
               </p>
             </div>
           </div>
-        </div><!-- End Pricing Item -->
+        </div><!-- End veille_technologique Item -->
   
         <!-- Outils utilis&eacute;s pour la veille -->
         <div class="col-lg-12">
@@ -507,7 +496,7 @@
               </p>
             </div>
           </div>
-        </div><!-- End Pricing Item -->
+        </div><!-- End veille_technologique Item -->
   
         <!-- Sujet de la veille -->
         <div class="col-lg-12">
@@ -519,7 +508,7 @@
               </p>
             </div>
           </div>
-        </div><!-- End Pricing Item -->
+        </div><!-- End veille_technologique Item -->
   
         <!-- Conclusion de la veille -->
         <div class="col-lg-12">
@@ -531,11 +520,11 @@
               </p>
             </div>
           </div>
-        </div><!-- End Pricing Item -->
+        </div><!-- End veille_technologique Item -->
   
       </div>
     </div>
-  </section><!-- /Pricing 2 Section -->
+  </section><!-- /veille_technologique 2 Section -->
 
     <!-- Gallery Section -->
     

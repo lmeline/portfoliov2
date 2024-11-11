@@ -693,9 +693,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# accueil Section
 --------------------------------------------------------------*/
-.hero {
+.accueil {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -705,7 +705,7 @@ section,
   justify-content: center;
 }
 
-.hero:before {
+.accueil:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
@@ -713,7 +713,7 @@ section,
   z-index: 2;
 }
 
-.hero img {
+.accueil img {
   position: absolute;
   inset: 0;
   display: block;
@@ -723,19 +723,19 @@ section,
   z-index: 1;
 }
 
-.hero .container {
+.accueil .container {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
+.accueil h2 {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 56px;
 }
 
-.hero p {
+.accueil p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 10px 0 0 0;
   font-size: 16px;
@@ -744,13 +744,13 @@ section,
 }
 
 @media (max-width: 640px) {
-  .hero h1 {
+  .accueil h1 {
     font-size: 30px;
     line-height: 36px;
   }
 }
 
-.hero .btn-scroll {
+.accueil .btn-scroll {
   transition: 0.4s;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   display: block;
@@ -758,11 +758,11 @@ section,
   animation: btn-up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
-.hero .btn-scroll i {
+.accueil .btn-scroll i {
   font-size: 48px;
 }
 
-.hero .btn-scroll:hover {
+.accueil .btn-scroll:hover {
   color: var(--accent-color);
 }
 
@@ -777,29 +777,29 @@ section,
 }
 
 /*--------------------------------------------------------------
-# About Section
+# a_propos Section
 --------------------------------------------------------------*/
-.about .content h2 {
+.a_propos .content h2 {
   font-weight: 700;
   font-size: 24px;
 }
 
-.about .content ul {
+.a_propos .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.a_propos .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-.about .content ul strong {
+.a_propos .content ul strong {
   margin-right: 10px;
 }
 
-.about .content ul i {
+.a_propos .content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: var(--accent-color);
@@ -807,9 +807,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Resume Section
+# parcours Section
 --------------------------------------------------------------*/
-.resume .resume-title {
+.parcours .parcours-title {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
@@ -817,14 +817,14 @@ section,
   margin-bottom: 20px;
 }
 
-.resume .resume-item {
+.parcours .parcours-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
 }
 
-.resume .resume-item h4 {
+.parcours .parcours-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -833,7 +833,7 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.parcours .parcours-item h5 {
   font-size: 16px;
   padding: 5px 15px;
   display: inline-block;
@@ -841,19 +841,19 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.parcours .parcours-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.parcours .parcours-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.parcours .parcours-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.parcours .parcours-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -866,9 +866,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# competences Section
 --------------------------------------------------------------*/
-.services .service-item {
+.competences .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -878,7 +878,7 @@ section,
   z-index: 1;
 }
 
-.services .service-item:before {
+.competences .service-item:before {
   content: "";
   position: absolute;
   background: var(--accent-color);
@@ -887,41 +887,41 @@ section,
   z-index: -1;
 }
 
-.services .service-item .icon {
+.competences .service-item .icon {
   margin-bottom: 10px;
 }
 
-.services .service-item .icon i {
+.competences .service-item .icon i {
   color: var(--accent-color);
   font-size: 36px;
   transition: ease-in-out 0.3s;
 }
 
-.services .service-item h4 {
+.competences .service-item h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
 }
 
-.services .service-item h4 a {
+.competences .service-item h4 a {
   color: var(--heading-color);
   transition: ease-in-out 0.3s;
 }
 
-.services .service-item p {
+.competences .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   transition: ease-in-out 0.3s;
 }
 
-.services .service-item:hover h4 a,
-.services .service-item:hover .icon i,
-.services .service-item:hover p {
+.competences .service-item:hover h4 a,
+.competences .service-item:hover .icon i,
+.competences .service-item:hover p {
   color: var(--contrast-color);
 }
 
-.services .service-item:hover:before {
+.competences .service-item:hover:before {
   background: var(--accent-color);
   inset: 0;
   border-radius: 0px;
@@ -1035,16 +1035,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# projets Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+.projets .projets-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio .portfolio-filters li {
+.projets .projets-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -1056,36 +1056,36 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
+.projets .projets-filters li:hover,
+.projets .projets-filters li.filter-active {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-filters li:first-child {
+.projets .projets-filters li:first-child {
   margin-left: 0;
 }
 
-.portfolio .portfolio-filters li:last-child {
+.projets .projets-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
+  .projets .projets-filters li {
     font-size: 14px;
     margin: 0 5px;
   }
 }
 
-.portfolio .portfolio-content {
+.projets .projets-content {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio .portfolio-content img {
+.projets .projets-content img {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-content .portfolio-info {
+.projets .projets-content .projets-info {
   opacity: 0;
   position: absolute;
   inset: 0;
@@ -1095,7 +1095,7 @@ section,
   padding: 15px;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 {
+.projets .projets-content .projets-info h4 {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -1104,7 +1104,7 @@ section,
   background-color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info p {
+.projets .projets-content .projets-info p {
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -1116,8 +1116,8 @@ section,
   color: rgba(255, 255, 255, 0.8);
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link,
-.portfolio .portfolio-content .portfolio-info .details-link {
+.projets .projets-content .projets-info .preview-link,
+.projets .projets-content .projets-info .details-link {
   position: absolute;
   left: calc(50% - 40px);
   font-size: 26px;
@@ -1127,29 +1127,29 @@ section,
   line-height: 1.2;
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link:hover,
-.portfolio .portfolio-content .portfolio-info .details-link:hover {
+.projets .projets-content .projets-info .preview-link:hover,
+.projets .projets-content .projets-info .details-link:hover {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info .details-link {
+.projets .projets-content .projets-info .details-link {
   left: 50%;
   font-size: 34px;
   line-height: 0;
 }
 
-.portfolio .portfolio-content:hover .portfolio-info {
+.projets .projets-content:hover .projets-info {
   opacity: 1;
 }
 
-.portfolio .portfolio-content:hover img {
+.projets .projets-content:hover img {
   transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
-# Pricing Section
+# veille_technologique Section
 --------------------------------------------------------------*/
-.pricing .pricing-item {
+.veille_technologique .veille_technologique-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px rgba(0, 0, 0, 0.1);
   padding: 20px 20px;
@@ -1159,33 +1159,33 @@ section,
   overflow: hidden;
 }
 
-.pricing .pricing-item h3 {
+.veille_technologique .veille_technologique-item h3 {
   padding: 15px;
   margin-top: 15px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.pricing .pricing-item h4 {
+.veille_technologique .veille_technologique-item h4 {
   color: var(--accent-color);
   font-size: 42px;
   font-family: var(--default-font);
   font-weight: 500;
 }
 
-.pricing .pricing-item h4 sup {
+.veille_technologique .veille_technologique-item h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
 
-.pricing .pricing-item h4 span {
+.veille_technologique .veille_technologique-item h4 span {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-size: 16px;
   font-weight: 300;
 }
 
-.pricing .pricing-item ul {
+.veille_technologique .veille_technologique-item ul {
   padding: 20px 0;
   list-style: none;
   text-align: center;
@@ -1193,21 +1193,21 @@ section,
   font-size: 14px;
 }
 
-.pricing .pricing-item ul li {
+.veille_technologique .veille_technologique-item ul li {
   padding-bottom: 16px;
 }
 
-.pricing .pricing-item ul .na {
+.veille_technologique .veille_technologique-item ul .na {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   text-decoration: line-through;
 }
 
-.pricing .pricing-item .btn-wrap {
+.veille_technologique .veille_technologique-item .btn-wrap {
   padding: 15px;
   text-align: center;
 }
 
-.pricing .pricing-item .btn-buy {
+.veille_technologique .veille_technologique-item .btn-buy {
   color: var(--accent-color);
   background-color: transparent;
   border: 2px solid var(--accent-color);
@@ -1220,22 +1220,22 @@ section,
   transition: 0.3s;
 }
 
-.pricing .pricing-item .btn-buy:hover {
+.veille_technologique .veille_technologique-item .btn-buy:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.pricing .recommended .btn-buy {
+.veille_technologique .recommended .btn-buy {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.pricing .recommended .btn-buy:hover {
+.veille_technologique .recommended .btn-buy:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
   border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.pricing .recommended-badge {
+.veille_technologique .recommended-badge {
   position: absolute;
   top: 20px;
   left: 50%;
@@ -1249,22 +1249,22 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Pricing 2 Section
+# veille_technologique 2 Section
 --------------------------------------------------------------*/
-.pricing-2 .pricing-item {
+.veille_technologique-2 .veille_technologique-item {
   border-bottom: 1px dashed color-mix(in srgb, var(--default-color), transparent 60%);
   width: 100%;
   height: 100%;
   padding: 0 0 15px 0;
 }
 
-.pricing-2 .pricing-item h3 {
+.veille_technologique-2 .veille_technologique-item h3 {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
 }
 
-.pricing-2 .pricing-item h4 {
+.veille_technologique-2 .veille_technologique-item h4 {
   margin: 0;
   font-size: 18px;
   color: var(--accent-color);
@@ -1434,14 +1434,14 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .services-list {
+.service-details .competences-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.service-details .services-list a {
+.service-details .competences-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1451,17 +1451,17 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+.service-details .competences-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .competences-list a:hover {
   border-color: var(--accent-color);
 }
 
-.service-details .services-img {
+.service-details .competences-img {
   margin-bottom: 20px;
 }
 
