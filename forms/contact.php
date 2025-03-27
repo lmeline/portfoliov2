@@ -7,8 +7,8 @@ $headers = "From: " . $_POST['email'] . "\r\n" .
            "X-Mailer: PHP/" . phpversion();
 
 if(mail($to, $subject, $message, $headers)) {
-    echo "E-mail envoyé avec succès !";
+  echo "OK";
 } else {
-    echo "Échec de l'envoi de l'e-mail.";
+  echo "KO";
 }
 ?>
