@@ -928,7 +928,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Testimonials Section
+# Outils Section
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
@@ -1037,6 +1037,7 @@ section,
 /*--------------------------------------------------------------
 # projets Section
 --------------------------------------------------------------*/
+
 .projets .projets-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1054,6 +1055,7 @@ section,
   line-height: 1;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .projets .projets-filters li:hover,
