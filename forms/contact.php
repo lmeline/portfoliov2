@@ -1,8 +1,9 @@
 <?php
 $to = "loise13@hotmail.fr";
+$from_email ="contact@loise.ifcsioslam.fr";
 $subject = $_POST['subject'];
 $message = $_POST['message'];
-$headers = "From: " . $_POST['email'] . "\r\n" .
+$headers = "From: " . $from_email . "\r\n" .
            "Reply-To: " . $_POST['email'] . "\r\n" .
            "X-Mailer: PHP/" . phpversion();
 
