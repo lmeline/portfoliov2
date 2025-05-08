@@ -192,3 +192,13 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+
+function openModal(src) {
+  document.getElementById('modalImage').src = src;
+  document.getElementById('imageModalContainer').style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById('imageModalContainer').style.display = "none";
+}

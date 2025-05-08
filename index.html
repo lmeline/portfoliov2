@@ -483,7 +483,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-app">
                   <div class="projets-content h-100">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#modalProjet1">
-                      <img src="assets/img/portfolio/accueil_glossothek.png" class="img-fluid me-4" alt="Glosothek">
+                      <img src="assets/img/portfolio/glosothek/accueil_glossothek.png" class="img-fluid me-4" alt="Glosothek">
                     </a>
                   </div>
                 </div>
@@ -531,21 +531,43 @@
                           son
                           bon fonctionnement.</p>
 
-                        <h4>Les screenshots </h4>
-                        <img src="assets/img/portfolio/glossaire_glossothek.png" class="img-fluid mb-3"
-                          alt="Projet 2ème Année">
+                        <h4 class="mt-4 mb-3">Captures d’écran</h4>
+                        <div class="project-gallery">
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/glosothek/glossaire_glossothek.png" alt="bulle dans pithekos"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Page d'accueil pour les utilisateurs</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/glosothek/interface_admin_glosothek.png" alt="conversations"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Page d'accueil pour les administrateurs</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/glosothek/mot_suggere_glosothek.png" alt="ajouter une note"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Suggestion de mots par les utilisateurs</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/glosothek/choix_du_mot_glosothek.png" alt="messages"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Choix de l'ajout du mot suggéré</div>
+                          </div>
+                        </div>
                         <hr>
                       </div>
                     </div>
                   </div>
                 </div>
                 <!-- End Modal -->
-
                 <!-- Projet 2  -->
                 <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-app">
                   <div class="projets-content h-100">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#modalProjet2">
-                      <img src="assets/img/portfolio/pithekos_syllogos.png" class="img-fluid ms-4" alt="Syllogos ">
+                      <img src="assets/img/portfolio/syllogos/pithekos_syllogos.png" class="img-fluid ms-4" alt="Syllogos ">
                     </a>
                   </div>
                 </div>
@@ -592,23 +614,39 @@
                           MongoDB, et les données sont récupérées via une API avec OAuth sur le site Door43 afin de
                           gérer
                           l’authentification et l’accès aux ressources.</p>
-                        <h4>Les screenshots</h4>
-                        <p> Intégration de syllogos en phase de test sur l'éditeur de texte pithekos</p>
-                        <img src="assets/img/portfolio/syllogos_enrouge.png" class="img-fluid mb-3"
-                          alt="bulle dans pithekos">
-                        <p> Inferface en phase de changement pour créer une nouvelle conversation</p>
-                        <img src="assets/img/portfolio/ajouter_note_syllogos.png" class="img-fluid mb-3"
-                          alt="ajouter une note">
-                        <p> Inferface pour l'affichage des conversations non terminée, car changement futur au niveau de
-                          l'ergonimie</p>
-                        <img src="assets/img/portfolio/conversation_syllogos.png" class="img-fluid mb-3"
-                          alt="visuelle des conversations">
-                        <p> Interface pour l'affichage des messages</p>
-                        <img src="assets/img/portfolio/afficher_message_syllogos.png" class="img-fluid mb-3"
-                          alt="afficher les messages">
-                        <p> Interface pour l'affichage des archives</p>
-                        <img src="assets/img/portfolio/archives_syllogos.png" class="img-fluid mb-3"
-                          alt="archive des conversations">
+                        <h4 class="mt-4 mb-3">Captures d’écran</h4>
+
+                        <div class="project-gallery">
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/syllogos/ajouter_note_syllogos.png" alt="bulle dans pithekos"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Intégration de Syllogos sur l’éditeur Pithekos</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/syllogos/ajouter_note_syllogos.png" alt="ajouter une note"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Création d’une nouvelle conversation</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/syllogos/conversation_syllogos.png" alt="conversations"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Affichage des conversations (ancienne version)</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/syllogos/afficher_message_syllogos.png" alt="messages"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Interface des messages</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/syllogos/archives_syllogos.png" alt="archives"
+                              onclick="openModal(this.src)">
+                            <div class="syllogos-caption">Archives des conversations</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -618,7 +656,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-product">
                   <div class="projets-content h-100">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#patteapatte">
-                      <img src="assets/img/portfolio/capture_patte_a_patte.png" class="img-fluid ms-4"
+                      <img src="assets/img/portfolio//patteapatte/capture_patte_a_patte.png" class="img-fluid ms-4"
                         alt="patte à patte ">
                     </a>
                   </div>
@@ -678,7 +716,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 projets-item isotope-item filter-product">
                   <div class="projets-content h-100">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#dogsitterCRUD">
-                      <img src="assets/img/portfolio/capture dogsitter Crud.png" class="img-fluid ms-4"
+                      <img src="assets/img/portfolio/patteapatteAdmin/capture_code_dogsitter_crud.png" class="img-fluid ms-4"
                         alt="Patte à patte Admin ">
                     </a>
                   </div>
@@ -722,6 +760,10 @@
             </div>
           </div>
         </div>
+        <div id="imageModalContainer" class="image-modal" onclick="closeModal()">
+          <span class="close">&times;</span>
+          <img id="modalImage" class="image-modal-content" alt="Image en grand">
+        </div>
       </section>
 
       <!-- ======= Veille Technologique Section ======= -->
@@ -751,7 +793,9 @@
               <div class="card-body">
                 <h2 class="card-title h5">Outils de veille</h2>
                 <ul class="list-unstyled">
-                  <li><i class="bi bi-chevron-right"></i> <a href="https://feedly.com/i/collection/content/user/9bee0be1-7e98-4679-96ca-788df79e59f7/category/6d138c8f-e61d-403e-8c5a-4606e4524ba6">Feedly</a>  - Flux RSS, Humans Coders News, IT-connect et
+                  <li><i class="bi bi-chevron-right"></i> <a
+                      href="https://feedly.com/i/collection/content/user/9bee0be1-7e98-4679-96ca-788df79e59f7/category/6d138c8f-e61d-403e-8c5a-4606e4524ba6">Feedly</a>
+                    - Flux RSS, Humans Coders News, IT-connect et
                     autres</li>
                   </li>
                 </ul>
@@ -779,12 +823,12 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <h3 class="card-title ">Conclusion</h2>
-                <p>
-                  Grâce à cette veille technologique et à son application dans mon projet Syllogos,
-                  j’ai renforcé ma maîtrise des technologies du MERN Stack. Elle me permet aujourd’hui de créer des
-                  applications
-                  modernes, robustes et adaptées aux besoins des utilisateurs.
-                </p>
+                  <p>
+                    Grâce à cette veille technologique et à son application dans mon projet Syllogos,
+                    j’ai renforcé ma maîtrise des technologies du MERN Stack. Elle me permet aujourd’hui de créer des
+                    applications
+                    modernes, robustes et adaptées aux besoins des utilisateurs.
+                  </p>
               </div>
             </div>
           </div>
