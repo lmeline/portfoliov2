@@ -195,10 +195,10 @@
 
 
 function openModal(src) {
-  document.getElementById('modalImage').src = src;
-  document.getElementById('imageModalContainer').style.display = "flex";
+  document.getElementById('modal_image').src = src;
+  document.getElementById('image_modal_container').style.display = "flex";
 }
 
 function closeModal() {
-  document.getElementById('imageModalContainer').style.display = "none";
+  document.getElementById('image_modal_container').style.display = "none";
 }
