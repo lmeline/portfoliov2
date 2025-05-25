@@ -679,22 +679,13 @@
                       <div class="modal-body">
                         <h2>Patte à patte - Documentation technique </h2>
 
-                        <h4> Introduction</h4>
+                        <h3> Le contexte</h3>
                         <p>
                           Patte à patte est une plateforme web permettant aux propriétaires de chiens de trouver
                           facilement des dogsitters prochent de chez eux, selon leurs besoins et disponibilités. Le
                           projet a été réalisé dans le cadre du BTS.
                         </p>
-
-                        <h4>Technologies utilisées</h4>
-                        <ul>
-                          <li>Backend : Laravel</li>
-                          <li>Frontend : Vite, Tailwind</li>
-                          <li>Base de données : MySQL</li>
-                          <li> Autres outils : Postman, Laravel Breeze, Laravel Sanctum, Laravel Cashier, GitHub</li>
-                        </ul>
-
-                        <h4> Fonctionnalités du projet</h4>
+                        <h3> Fonctionnalités du projet</h3>
                         <ul>
                           <li>Authentification des utilisateurs</li>
                           <li>Création de compte</li>
@@ -702,16 +693,93 @@
                           <li>Création de annonces</li>
                           <li>Création de messages</li>
                         </ul>
-
-                        <h4>Les endpoints principaux (routes web)</h4>
+                        <h3>Technologies utilisées</h3>
                         <ul>
-                          <li>Authentification</li>
-                          <li>Création de compte</li>
-                          <li>Recherche de dogsitters</li>
-                          <li>Création de annonces</li>
-                          <li>Création de messages</li>
+                          <li>Backend : Laravel</li>
+                          <li>Frontend : Vite, Tailwind</li>
+                          <li>Base de données : MySQL</li>
+                          <li> Autres outils : Postman, Laravel Breeze, Laravel Sanctum, Laravel Cashier, GitHub</li>
                         </ul>
+                        <h3> Interface du site internet </h3>
+                        <div class="project-gallery">
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/capture_patte_a_patte.png"
+                              alt="page d'accueil non connecté" onclick="openModal(this.src)">
+                            <div class="project-caption">Page d'accueil pour les utilisateurs non connectés</div>
+                          </div>
 
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/trouvez_dogsitter.png"
+                              alt="trouvez son dogsitter" onclick="openModal(this.src)">
+                            <div class="project-caption">Trouver son dogsitter (coté propriétaire)</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/profil-dogsitter.png" alt="profil dogsitter"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Profil du dogsitter (coté propriétaire)</div>
+                          </div>
+
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/conversation-message.png" alt="conservation messages"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Envoi de messages (coté propriétaire et dogsitter)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/messagerie.png" alt="messagerie propriétaire et dogsitter"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Visualisation de la messagerie (coté propriétaire et dogsitter)
+                            </div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/prendre-presta.png" alt="prendre une prestation"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Prendre une prestation (coté propriétaire)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/presta-proprietaire.png" alt="presta-proprietaire"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Visualisation de la prestation (coté propriétaire)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/plusdetail-presta-pro.png" alt="detail de la prestation"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Visualisation de la prestation avec plus de détails (coté
+                              propriétaire)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/profil-pro.png" alt="profil propriétaire"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Profil du propriétaire (coté propriétaire)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/ajouter-chien.png" alt="ajouter un chien propriétaire" 
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Ajouter un chien (coté propriétaire)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/rdv-dog.png" alt="rdv dogsitter"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Visualisation des rendez-vous (coté dogsitter)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/info-rdv-dog.png" alt="info rendez-vous dogsitter"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Visualisation des rendez-vous avec plus de détails (coté
+                              dogsitter)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/abonnement-choix.png" alt="choix abonnement dogsitter"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Choix de l'abonnement (coté dogsitter)</div>
+                          </div>
+                          <div class="project-item">
+                            <img src="assets/img/portfolio/patteapatte/poster-annonce-dog.png" alt="poster son annonce"
+                              onclick="openModal(this.src)">
+                            <div class="project-caption">Poster son annonce (coté dogsitter)</div>
+                          </div>
+                        </div>
+                        <h3> Documentations & ressources</h3>
                         <a href="CV_MELINE_LOISE.pdf">Cahier des charges</a>
                       </div>
                     </div>
